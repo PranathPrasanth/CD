@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <string.h>
 
@@ -74,3 +73,13 @@ int main()
 
     return 0;
 }
+
+/*
+Sample Input:
+Enter expression: a+b*c
+
+Sample Output:
+t1 = b * c
+t2 = a + t1
+Result = t2
+*/
