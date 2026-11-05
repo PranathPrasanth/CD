@@ -120,3 +120,43 @@ int main()
     fclose(fp);
     return 0;
 }
+
+/*
+Sample Input (input.txt):
+
+int main()
+{
+    int a = 10;
+    float b = 20.5;
+    a = a + b;
+    return 0;
+}
+
+Sample Output:
+
+Keyword : int
+Identifier : main
+Special Symbol : (
+Special Symbol : )
+Special Symbol : {
+Keyword : int
+Identifier : a
+Operator : =
+Number : 10
+Special Symbol : ;
+Keyword : float
+Identifier : b
+Operator : =
+Number : 20.5
+Special Symbol : ;
+Identifier : a
+Operator : =
+Identifier : a
+Operator : +
+Identifier : b
+Special Symbol : ;
+Keyword : return
+Number : 0
+Special Symbol : ;
+Special Symbol : }
+*/
